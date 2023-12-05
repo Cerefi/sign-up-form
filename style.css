@@ -48,18 +48,43 @@ body {
 
 #main {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     background-color: beige;
     width: 65vw;
     height: 100vh;
 }
 
-#main-content {
+#header {
     width: 60%;
     margin-left: 10%;
     margin-top: 5%;
 }
 
-#main-content p {
+#header p,
+label {
     font-size: larger;
+}
+
+#first-name-container,
+#last-name-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-name-container {
+    margin-left: 10%;
+}
+
+#last-name-container {
+    margin-left: 5%;
+}
+
+.input  {
+    width: 300px;
+    height: 35px;
+}
+
+#name {
+    display: flex;
 }
