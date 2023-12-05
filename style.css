@@ -78,7 +78,8 @@ label {
 
 #first-name-container,
 #email-container,
-#password-container {
+#password-container,
+h2 {
     margin-left: 10%;
 }
 
