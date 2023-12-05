@@ -69,18 +69,22 @@ label {
 #first-name-container,
 #last-name-container,
 #email-container,
-#number-container {
+#number-container,
+#password-container,
+#confirm-password-container {
     display: flex;
     flex-direction: column;
 }
 
 #first-name-container,
-#email-container {
+#email-container,
+#password-container {
     margin-left: 10%;
 }
 
 #last-name-container,
-#number-container {
+#number-container,
+#confirm-password-container {
     margin-left: 5%;
 }
 
@@ -90,7 +94,8 @@ label {
 }
 
 #name,
-#contact {
+#contact,
+#password {
     display: flex;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
 }
