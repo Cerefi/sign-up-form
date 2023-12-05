@@ -100,3 +100,8 @@ h2 {
     display: flex;
     margin-bottom: 20px;
 }
+
+form {
+    background-color: white;
+    box-shadow: 10px 5px 5px gray;
+}
