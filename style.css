@@ -67,16 +67,20 @@ label {
 }
 
 #first-name-container,
-#last-name-container {
+#last-name-container,
+#email-container,
+#number-container {
     display: flex;
     flex-direction: column;
 }
 
-#first-name-container {
+#first-name-container,
+#email-container {
     margin-left: 10%;
 }
 
-#last-name-container {
+#last-name-container,
+#number-container {
     margin-left: 5%;
 }
 
@@ -85,6 +89,8 @@ label {
     height: 35px;
 }
 
-#name {
+#name,
+#contact {
     display: flex;
+    margin-bottom: 5%;
 }
