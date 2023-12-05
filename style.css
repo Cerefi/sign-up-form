@@ -47,7 +47,19 @@ body {
 }
 
 #main {
+    display: flex;
+    justify-content: flex-start;
     background-color: beige;
     width: 65vw;
     height: 100vh;
+}
+
+#main-content {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#main-content p {
+    font-size: larger;
 }
