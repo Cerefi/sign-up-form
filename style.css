@@ -50,7 +50,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: beige;
     width: 65vw;
     height: 100vh;
 }
@@ -79,7 +78,8 @@ label {
 #first-name-container,
 #email-container,
 #password-container,
-h2 {
+h2,
+button {
     margin-left: 10%;
 }
 
@@ -102,10 +102,22 @@ h2 {
 }
 
 form {
-    background-color: white;
+    background-color: beige;
     box-shadow: 10px 5px 5px gray;
+    margin-bottom: 30px;
 }
 
 .input:focus {
     box-shadow: 0 0 5px 3px #5a8da9;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: larger;
+    background-color: rgb(39, 102, 39);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px gray;
 }
