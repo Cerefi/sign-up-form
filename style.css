@@ -93,6 +93,7 @@ button,
 .input  {
     width: 300px;
     height: 35px;
+    font-size: large;
 }
 
 #name,
