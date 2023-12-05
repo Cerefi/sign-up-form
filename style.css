@@ -105,3 +105,7 @@ form {
     background-color: white;
     box-shadow: 10px 5px 5px gray;
 }
+
+.input:focus {
+    box-shadow: 0 0 5px 3px #5a8da9;
+}
