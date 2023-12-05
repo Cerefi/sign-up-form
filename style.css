@@ -79,7 +79,8 @@ label {
 #email-container,
 #password-container,
 h2,
-button {
+button,
+#main > span {
     margin-left: 10%;
 }
 
@@ -120,4 +121,13 @@ button {
     color: white;
     font-weight: bold;
     box-shadow: 5px 5px 5px gray;
+}
+
+span a {
+    color: rgb(39, 102, 39);
+    text-decoration: none;
+}
+
+button {
+    margin-bottom: 10px;
 }
